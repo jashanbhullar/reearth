@@ -11,7 +11,7 @@ import (
 	"github.com/reearth/reearth/server/pkg/user"
 	"github.com/reearth/reearthx/authserver"
 	"github.com/reearth/reearthx/rerror"
-	"github.com/zitadel/oidc/pkg/oidc"
+	"github.com/zitadel/oidc/v2/pkg/oidc"
 )
 
 var ErrInvalidEmailORPassword = errors.New("wrong email or password")
